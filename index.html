@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="HFT 程式、策略說明與完整參數圖鑑">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f7f8f4">
+  <title>HFT 策略筆記</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data/catalog.js"></script>
+  <script defer src="favorites-sync.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要內容</a>
+  <aside class="sidebar">
+    <a class="brand" href="#strategies" aria-label="HFT 策略筆記首頁"><span class="brand-mark">hft<span>.</span></span><span>策略筆記<small>RESEARCH NOTEBOOK</small></span></a>
+    <div class="workspace-label">我的研究空間 <span>本機</span></div>
+    <nav class="main-nav" aria-label="主要導覽">
+      <button data-view="strategies" class="active"><span>▤</span> 全部策略 <small id="nav-count"></small></button>
+      <button data-view="favorites"><span>☆</span> 我的收藏 <small id="favorite-count">0</small></button>
+      <button data-view="programs"><span>▤</span> 程式總覽</button>
+      <button data-view="parameters"><span>≡</span> 參數索引</button>
+      <button data-view="compare"><span>⇄</span> 策略比較 <small id="compare-count">0</small></button>
+    </nav>
+    <button id="favorite-sync" class="favorite-sync" disabled>收藏僅存本機</button>
+    <div class="program-heading"><div id="program-heading" class="sidebar-label">依程式瀏覽</div><button id="clear-program" title="顯示全部程式">全部</button></div>
+    <input id="program-search" class="program-search" aria-label="搜尋程式目錄" placeholder="尋找程式…" autocomplete="off">
+    <nav id="program-list" class="program-list" aria-label="程式目錄"></nav>
+    <div class="sidebar-footer"><span class="small-icon">↗</span><div>從每一次交易，累積理解。<small>程式、策略與參數，慢慢讀懂。</small></div></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><nav class="breadcrumb" id="breadcrumb" aria-label="目前位置"><a href="#strategies">我的研究空間</a><span>/</span><strong>全部策略</strong></nav><div class="topbar-right"><span class="local-label"><span class="status-dot"></span> 本機策略筆記</span><span id="generated-at"></span><button id="about-button">整理說明</button></div></header>
+    <main id="main" tabindex="-1">
+      <div id="list-page">
+      <div class="list-heading"><div><h1 id="page-title">全部策略</h1><span id="result-count" class="result-count"></span></div><div class="list-actions"><button id="export-button" class="text-button">匯出 ↓</button><div id="layout-switch" class="view-switch" aria-label="顯示方式"><button data-layout="grid" aria-label="卡片檢視" aria-pressed="false">▦</button><button data-layout="list" class="active" aria-label="列表檢視" aria-pressed="true">☷</button></div></div></div>
+      <section class="filters" aria-label="搜尋與篩選">
+        <label class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="search" type="search" placeholder="搜尋策略、觀念或參數…" aria-label="搜尋策略、程式、參數或說明"></label>
+        <div class="filter-row"><select id="program-filter" aria-label="依程式篩選"><option value="">全部程式</option></select><select id="family-filter" aria-label="依策略類型篩選"><option value="">全部類型</option></select><select id="progress-filter" aria-label="依整理進度篩選"><option value="">全部整理進度</option><option value="complete">已整理</option><option value="pending">待整理</option></select><select id="status-filter" aria-label="依策略清單篩選"><option value="">全部清單狀態</option><option value="listed">清單中</option><option value="unlisted">未在清單中</option></select><select id="sort-filter" aria-label="策略排序"><option value="program">程式名稱排序</option><option value="name">策略名稱排序</option><option value="parameters">參數數量由多到少</option></select><button class="reset-button" id="reset">重設</button></div>
+      </section>
+      <div id="active-filters" class="active-filters"></div>
+      <div id="content" aria-live="polite"></div>
+      <div id="pagination" class="pagination"></div>
+      </div>
+      <section id="strategy-page" aria-label="策略內容" hidden><div class="reading-navigation"><button id="back-to-list">← 回上頁</button><span id="reading-position"></span></div><article id="detail-content" class="strategy-detail" tabindex="-1"></article></section>
+      <footer class="page-footer"><span class="footer-logo">hft.</span><span>每一個策略，都是理解交易的起點。</span><span class="footer-right">HFT · 研究持續累積中</span></footer>
+    </main>
+  </div>
+  <dialog id="about-dialog" class="about-dialog"><button data-close="about-dialog" class="icon-button close" aria-label="關閉整理說明">×</button><div class="eyebrow">ABOUT THIS LIBRARY</div><h2>程式、策略、參數，一次看懂。</h2><p>這份圖鑑將各程式的策略與參數集中整理，提供搜尋、篩選及跨策略比較。</p><dl><dt>收錄範圍</dt><dd id="about-scope"></dd><dt>完整參數</dt><dd>繼承參數直接合併為策略自己的完整參數，保留同名覆寫。依公開可寫入屬性與參數分類整理，排除批次控制欄位及明確的績效結果。未分類屬性可能包含執行狀態；動態顯示的參數也一併收錄。</dd><dt>策略清單</dt><dd>依各程式策略清單中的策略實例判定。已註解及未列入的項目統一標示「未在清單中」。部分清單依國別或執行條件加入策略，因此「清單中」不代表所有情況都啟用。</dd><dt>策略類型與說明</dt><dd>已整理策略的交易原理、參數說明及類型以逐項閱讀實作後的分析為準；待整理項目暫依原有 Description 與名稱呈現，並標示整理進度。動態外部策略僅呈現載入程式概況，不將載入框架列為策略。</dd><dt>參數比較</dt><dd>以相同參數名稱對齊，比較型別、分類、說明與選項；相同名稱在不同策略中仍可能有不同意義。</dd><dt>離線使用與更新</dt><dd>直接開啟 site/index.html 即可。修改策略後執行 <code>python site/build_catalog.py</code> 更新資料。</dd></dl></dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <noscript>此策略索引需要啟用 JavaScript。原始資料可於 data/catalog.json 閱讀。</noscript>
+</body>
+</html>

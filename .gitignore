@@ -1,0 +1,12 @@
+node_modules/
+.netlify/
+/dist/
+__pycache__/
+*.py[cod]
+/work/*.diff
+/work/*.draft.json
+/work/*.overview.txt
+
+# Also allow tests while site/ still resides in the parent hft checkout.
+!/tests/
+!/tests/**

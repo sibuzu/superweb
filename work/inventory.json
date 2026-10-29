@@ -1,0 +1,3557 @@
+{
+  "programs": [
+    {
+      "id": "BitBuy",
+      "projects": [
+        "src/BitBuy/BitBuy.csproj"
+      ]
+    },
+    {
+      "id": "BitDual",
+      "projects": [
+        "src/BitDual/BitDual.csproj"
+      ]
+    },
+    {
+      "id": "BitGridBuy",
+      "projects": [
+        "src/BitGridBuy/BitGridBuy.csproj"
+      ]
+    },
+    {
+      "id": "BitKline",
+      "projects": [
+        "src/BitKline/BitKline.csproj"
+      ]
+    },
+    {
+      "id": "BitTrade",
+      "projects": [
+        "src/BitTrade/BitTrade.csproj"
+      ]
+    },
+    {
+      "id": "DavidTrade",
+      "projects": [
+        "src/DavidTrade/DavidTrade.csproj"
+      ]
+    },
+    {
+      "id": "NetBack",
+      "projects": [
+        "src/NetBack/NetBack.csproj"
+      ]
+    },
+    {
+      "id": "RemoteCrypto",
+      "projects": [
+        "src/RemoteCrypto/RemoteCrypto.csproj"
+      ]
+    },
+    {
+      "id": "StgClient",
+      "projects": [
+        "src/StgClient/StgClient.csproj"
+      ]
+    },
+    {
+      "id": "StockSDS",
+      "projects": [
+        "src/StockSDS/StockSDS.csproj"
+      ]
+    },
+    {
+      "id": "SuperABS",
+      "projects": [
+        "src/SuperABS/SuperABS.csproj"
+      ]
+    },
+    {
+      "id": "SuperBDS",
+      "projects": [
+        "src/SuperBDS/SuperBDS.csproj"
+      ]
+    },
+    {
+      "id": "SuperCB",
+      "projects": [
+        "src/SuperCB/SuperCB.csproj"
+      ]
+    },
+    {
+      "id": "SuperChina",
+      "projects": [
+        "src/SuperChina/SuperChina.csproj"
+      ]
+    },
+    {
+      "id": "SuperClaw",
+      "projects": [
+        "src/SuperClaw/SuperClaw.csproj"
+      ]
+    },
+    {
+      "id": "SuperCombo",
+      "projects": [
+        "src/SuperCombo/SuperCombo.csproj"
+      ]
+    },
+    {
+      "id": "SuperCrypto",
+      "projects": [
+        "src/SuperCrypto/SuperCrypto.csproj"
+      ]
+    },
+    {
+      "id": "SuperDaily",
+      "projects": [
+        "src/SuperDaily/SuperDaily.csproj"
+      ]
+    },
+    {
+      "id": "SuperDLS",
+      "projects": [
+        "src/SuperDLS/SuperDLS.csproj"
+      ]
+    },
+    {
+      "id": "SuperETF",
+      "projects": [
+        "src/SuperETF/SuperETF.csproj"
+      ]
+    },
+    {
+      "id": "SuperHour",
+      "projects": [
+        "src/SuperHour/SuperHour.csproj"
+      ]
+    },
+    {
+      "id": "SuperInvETF",
+      "projects": [
+        "src/SuperInvETF/SuperInvETF.csproj"
+      ]
+    },
+    {
+      "id": "SuperMA",
+      "projects": [
+        "src/SuperMA/SuperMA.csproj"
+      ]
+    },
+    {
+      "id": "SuperOptionF",
+      "projects": [
+        "src/SuperOptionF/SuperOptionF.csproj"
+      ]
+    },
+    {
+      "id": "SuperSDS",
+      "projects": [
+        "src/SuperSDS/SuperSDS.csproj"
+      ]
+    },
+    {
+      "id": "SuperSP500",
+      "projects": [
+        "src/SuperSP500/SuperSP500.csproj"
+      ]
+    },
+    {
+      "id": "SuperStockBurst",
+      "projects": [
+        "src/SuperStockBurst/SuperStockBurst.csproj"
+      ]
+    },
+    {
+      "id": "SuperTrend",
+      "projects": [
+        "src/SuperTrend/SuperTrend.csproj"
+      ]
+    },
+    {
+      "id": "SuperUSStock",
+      "projects": [
+        "src/SuperUSStock/SuperUSStock.csproj"
+      ]
+    },
+    {
+      "id": "SuperVIX",
+      "projects": [
+        "src/SuperVIX/SuperVIX.csproj"
+      ]
+    },
+    {
+      "id": "WinStock",
+      "projects": [
+        "src/WinStock/WinStock.csproj"
+      ]
+    }
+  ],
+  "strategies": [
+    {
+      "id": "BitBuy/StgADX",
+      "program": "BitBuy",
+      "name": "StgADX",
+      "path": "src/BitBuy/Strategies/StgADX.cs",
+      "lineage": [
+        "StgBase",
+        "StgADX"
+      ]
+    },
+    {
+      "id": "BitBuy/StgAroon",
+      "program": "BitBuy",
+      "name": "StgAroon",
+      "path": "src/BitBuy/Strategies/StgAroon.cs",
+      "lineage": [
+        "StgBase",
+        "StgAroon"
+      ]
+    },
+    {
+      "id": "BitBuy/StgBHS",
+      "program": "BitBuy",
+      "name": "StgBHS",
+      "path": "src/BitBuy/Strategies/StgBHS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBHS"
+      ]
+    },
+    {
+      "id": "BitBuy/StgBuyHold",
+      "program": "BitBuy",
+      "name": "StgBuyHold",
+      "path": "src/BitBuy/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "BitBuy/StgRSI",
+      "program": "BitBuy",
+      "name": "StgRSI",
+      "path": "src/BitBuy/Strategies/StgRSI.cs",
+      "lineage": [
+        "StgBase",
+        "StgRSI"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg價格突破",
+      "program": "BitBuy",
+      "name": "Stg價格突破",
+      "path": "src/BitBuy/Strategies/Stg價格突破.cs",
+      "lineage": [
+        "StgBase",
+        "Stg價格突破"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg布林通道",
+      "program": "BitBuy",
+      "name": "Stg布林通道",
+      "path": "src/BitBuy/Strategies/Stg布林通道.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林通道"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg成交量",
+      "program": "BitBuy",
+      "name": "Stg成交量",
+      "path": "src/BitBuy/Strategies/Stg成交量.cs",
+      "lineage": [
+        "StgBase",
+        "Stg成交量"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg波動率",
+      "program": "BitBuy",
+      "name": "Stg波動率",
+      "path": "src/BitBuy/Strategies/Stg波動率.cs",
+      "lineage": [
+        "StgBase",
+        "Stg波動率"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg簡單動能",
+      "program": "BitBuy",
+      "name": "Stg簡單動能",
+      "path": "src/BitBuy/Strategies/Stg簡單動能.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單動能"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg簡單均線",
+      "program": "BitBuy",
+      "name": "Stg簡單均線",
+      "path": "src/BitBuy/Strategies/Stg簡單均線.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單均線"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg肯特納通道",
+      "program": "BitBuy",
+      "name": "Stg肯特納通道",
+      "path": "src/BitBuy/Strategies/Stg肯特納通道.cs",
+      "lineage": [
+        "StgBase",
+        "Stg肯特納通道"
+      ]
+    },
+    {
+      "id": "BitBuy/Stg高低比",
+      "program": "BitBuy",
+      "name": "Stg高低比",
+      "path": "src/BitBuy/Strategies/Stg高低比.cs",
+      "lineage": [
+        "StgBase",
+        "Stg高低比"
+      ]
+    },
+    {
+      "id": "BitDual/StgBuyHold",
+      "program": "BitDual",
+      "name": "StgBuyHold",
+      "path": "src/BitDual/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "BitDual/StgRSI",
+      "program": "BitDual",
+      "name": "StgRSI",
+      "path": "src/BitDual/Strategies/StgRSI.cs",
+      "lineage": [
+        "StgBase",
+        "StgRSI"
+      ]
+    },
+    {
+      "id": "BitDual/Stg價格突破",
+      "program": "BitDual",
+      "name": "Stg價格突破",
+      "path": "src/BitDual/Strategies/Stg價格突破.cs",
+      "lineage": [
+        "StgBase",
+        "Stg價格突破"
+      ]
+    },
+    {
+      "id": "BitDual/Stg布林反彈",
+      "program": "BitDual",
+      "name": "Stg布林反彈",
+      "path": "src/BitDual/Strategies/Stg布林反彈.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林反彈"
+      ]
+    },
+    {
+      "id": "BitDual/Stg布林通道",
+      "program": "BitDual",
+      "name": "Stg布林通道",
+      "path": "src/BitDual/Strategies/Stg布林通道.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林通道"
+      ]
+    },
+    {
+      "id": "BitDual/Stg持有固定時間",
+      "program": "BitDual",
+      "name": "Stg持有固定時間",
+      "path": "src/BitDual/Strategies/Stg持有固定時間.cs",
+      "lineage": [
+        "StgBase",
+        "Stg持有固定時間"
+      ]
+    },
+    {
+      "id": "BitDual/Stg簡單動能",
+      "program": "BitDual",
+      "name": "Stg簡單動能",
+      "path": "src/BitDual/Strategies/Stg簡單動能.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單動能"
+      ]
+    },
+    {
+      "id": "BitDual/Stg簡單均線",
+      "program": "BitDual",
+      "name": "Stg簡單均線",
+      "path": "src/BitDual/Strategies/Stg簡單均線.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單均線"
+      ]
+    },
+    {
+      "id": "BitGridBuy/StgBuyHold",
+      "program": "BitGridBuy",
+      "name": "StgBuyHold",
+      "path": "src/BitGridBuy/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "BitGridBuy/StgGridBuy",
+      "program": "BitGridBuy",
+      "name": "StgGridBuy",
+      "path": "src/BitGridBuy/Strategies/StgGridBuy.cs",
+      "lineage": [
+        "StgBase",
+        "StgGridBuy"
+      ]
+    },
+    {
+      "id": "BitGridBuy/Stg當日沖",
+      "program": "BitGridBuy",
+      "name": "Stg當日沖",
+      "path": "src/BitGridBuy/Strategies/Stg當日沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg當日沖"
+      ]
+    },
+    {
+      "id": "BitGridBuy/Stg隔日沖",
+      "program": "BitGridBuy",
+      "name": "Stg隔日沖",
+      "path": "src/BitGridBuy/Strategies/Stg隔日沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg隔日沖"
+      ]
+    },
+    {
+      "id": "BitKline/StgBuyHold",
+      "program": "BitKline",
+      "name": "StgBuyHold",
+      "path": "src/BitKline/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "BitKline/Stg價格突破超",
+      "program": "BitKline",
+      "name": "Stg價格突破超",
+      "path": "src/BitKline/Strategies/Stg價格突破超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg價格突破超"
+      ]
+    },
+    {
+      "id": "BitKline/Stg布林日沖",
+      "program": "BitKline",
+      "name": "Stg布林日沖",
+      "path": "src/BitKline/Strategies/Stg布林日沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林日沖"
+      ]
+    },
+    {
+      "id": "BitKline/Stg布林日沖超",
+      "program": "BitKline",
+      "name": "Stg布林日沖超",
+      "path": "src/BitKline/Strategies/Stg布林日沖超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林日沖超"
+      ]
+    },
+    {
+      "id": "BitKline/Stg布林通道超",
+      "program": "BitKline",
+      "name": "Stg布林通道超",
+      "path": "src/BitKline/Strategies/Stg布林通道超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林通道超"
+      ]
+    },
+    {
+      "id": "BitKline/Stg持有固定時間",
+      "program": "BitKline",
+      "name": "Stg持有固定時間",
+      "path": "src/BitKline/Strategies/Stg持有固定時間.cs",
+      "lineage": [
+        "StgBase",
+        "Stg持有固定時間"
+      ]
+    },
+    {
+      "id": "BitKline/Stg簡單動能超",
+      "program": "BitKline",
+      "name": "Stg簡單動能超",
+      "path": "src/BitKline/Strategies/Stg簡單動能超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單動能超"
+      ]
+    },
+    {
+      "id": "BitKline/Stg簡單均線超",
+      "program": "BitKline",
+      "name": "Stg簡單均線超",
+      "path": "src/BitKline/Strategies/Stg簡單均線超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單均線超"
+      ]
+    },
+    {
+      "id": "BitTrade/StgABS",
+      "program": "BitTrade",
+      "name": "StgABS",
+      "path": "src/BitTrade/Strategies/StgABS.cs",
+      "lineage": [
+        "StgBase",
+        "StgABS"
+      ]
+    },
+    {
+      "id": "BitTrade/StgAlphaBet",
+      "program": "BitTrade",
+      "name": "StgAlphaBet",
+      "path": "src/BitTrade/Strategies/StgAlphaBet.cs",
+      "lineage": [
+        "StgBase",
+        "StgAlphaBet"
+      ]
+    },
+    {
+      "id": "BitTrade/StgAlphaBet2",
+      "program": "BitTrade",
+      "name": "StgAlphaBet2",
+      "path": "src/BitTrade/Strategies/StgAlphaBet2.cs",
+      "lineage": [
+        "StgBase",
+        "StgAlphaBet2"
+      ]
+    },
+    {
+      "id": "BitTrade/StgBGrid",
+      "program": "BitTrade",
+      "name": "StgBGrid",
+      "path": "src/BitTrade/Strategies/StgBGrid.cs",
+      "lineage": [
+        "StgBase",
+        "StgBGrid"
+      ]
+    },
+    {
+      "id": "BitTrade/StgBuyHold",
+      "program": "BitTrade",
+      "name": "StgBuyHold",
+      "path": "src/BitTrade/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "BitTrade/StgPIndex",
+      "program": "BitTrade",
+      "name": "StgPIndex",
+      "path": "src/BitTrade/Strategies/StgPIndex.cs",
+      "lineage": [
+        "StgBase",
+        "StgPIndex"
+      ]
+    },
+    {
+      "id": "BitTrade/StgPIndex2",
+      "program": "BitTrade",
+      "name": "StgPIndex2",
+      "path": "src/BitTrade/Strategies/StgPIndex2.cs",
+      "lineage": [
+        "StgBase",
+        "StgPIndex2"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg三均線系統",
+      "program": "BitTrade",
+      "name": "Stg三均線系統",
+      "path": "src/BitTrade/Strategies/Stg三均線系統.cs",
+      "lineage": [
+        "StgBase",
+        "Stg三均線系統"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg價差停利",
+      "program": "BitTrade",
+      "name": "Stg價差停利",
+      "path": "src/BitTrade/Strategies/Stg價差停利.cs",
+      "lineage": [
+        "StgBase",
+        "Stg價差停利"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg價格突破",
+      "program": "BitTrade",
+      "name": "Stg價格突破",
+      "path": "src/BitTrade/Strategies/Stg價格突破.cs",
+      "lineage": [
+        "StgBase",
+        "Stg價格突破"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg均線蛛網",
+      "program": "BitTrade",
+      "name": "Stg均線蛛網",
+      "path": "src/BitTrade/Strategies/Stg均線蛛網.cs",
+      "lineage": [
+        "StgBase",
+        "Stg均線蛛網"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg均線蛛網改",
+      "program": "BitTrade",
+      "name": "Stg均線蛛網改",
+      "path": "src/BitTrade/Strategies/Stg均線蛛網改.cs",
+      "lineage": [
+        "StgBase",
+        "Stg均線蛛網改"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg多幣組合",
+      "program": "BitTrade",
+      "name": "Stg多幣組合",
+      "path": "src/BitTrade/Strategies/Stg多幣組合.cs",
+      "lineage": [
+        "StgBase",
+        "Stg多幣組合"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg簡單動能",
+      "program": "BitTrade",
+      "name": "Stg簡單動能",
+      "path": "src/BitTrade/Strategies/Stg簡單動能.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單動能"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg美股多均線",
+      "program": "BitTrade",
+      "name": "Stg美股多均線",
+      "path": "src/BitTrade/Strategies/Stg美股多均線.cs",
+      "lineage": [
+        "StgBase",
+        "Stg美股多均線"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg美股簡單動能",
+      "program": "BitTrade",
+      "name": "Stg美股簡單動能",
+      "path": "src/BitTrade/Strategies/Stg美股簡單動能.cs",
+      "lineage": [
+        "StgBase",
+        "Stg美股簡單動能"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg美股雙動能",
+      "program": "BitTrade",
+      "name": "Stg美股雙動能",
+      "path": "src/BitTrade/Strategies/Stg美股雙動能.cs",
+      "lineage": [
+        "StgBase",
+        "Stg美股雙動能"
+      ]
+    },
+    {
+      "id": "BitTrade/Stg雙幣對沖",
+      "program": "BitTrade",
+      "name": "Stg雙幣對沖",
+      "path": "src/BitTrade/Strategies/Stg雙幣對沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg雙幣對沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/StgBuyHold",
+      "program": "DavidTrade",
+      "name": "StgBuyHold",
+      "path": "src/DavidTrade/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg大尾當沖",
+      "program": "DavidTrade",
+      "name": "Stg大尾當沖",
+      "path": "src/DavidTrade/Strategies/StgDavid.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg大尾連續沖",
+      "program": "DavidTrade",
+      "name": "Stg大尾連續沖",
+      "path": "src/DavidTrade/Strategies/StgDavidCVol.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg大尾連續沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg連續過量沖",
+      "program": "DavidTrade",
+      "name": "Stg連續過量沖",
+      "path": "src/DavidTrade/Strategies/StgDavidDCVol.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg連續過量沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg深度向下沖",
+      "program": "DavidTrade",
+      "name": "Stg深度向下沖",
+      "path": "src/DavidTrade/Strategies/StgDavidDeep.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度向上沖",
+        "Stg深度向下沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg深度向上沖",
+      "program": "DavidTrade",
+      "name": "Stg深度向上沖",
+      "path": "src/DavidTrade/Strategies/StgDavidDeep.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度向上沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg深度向下沖2",
+      "program": "DavidTrade",
+      "name": "Stg深度向下沖2",
+      "path": "src/DavidTrade/Strategies/StgDavidDeep2.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度向上沖",
+        "Stg深度向下沖",
+        "Stg深度向下沖2"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg大尾用力沖",
+      "program": "DavidTrade",
+      "name": "Stg大尾用力沖",
+      "path": "src/DavidTrade/Strategies/StgDavidDsp.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾用力沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg深度兩分沖",
+      "program": "DavidTrade",
+      "name": "Stg深度兩分沖",
+      "path": "src/DavidTrade/Strategies/StgDavidDTime.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度一分沖",
+        "Stg深度兩分沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg深度一分沖",
+      "program": "DavidTrade",
+      "name": "Stg深度一分沖",
+      "path": "src/DavidTrade/Strategies/StgDavidDTime.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度一分沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg深度過量沖",
+      "program": "DavidTrade",
+      "name": "Stg深度過量沖",
+      "path": "src/DavidTrade/Strategies/StgDavidDVol.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度過量沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg一夜向下沖",
+      "program": "DavidTrade",
+      "name": "Stg一夜向下沖",
+      "path": "src/DavidTrade/Strategies/StgDavidNight.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg一夜沖",
+        "Stg一夜向上沖",
+        "Stg一夜向下沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg一夜向上沖",
+      "program": "DavidTrade",
+      "name": "Stg一夜向上沖",
+      "path": "src/DavidTrade/Strategies/StgDavidNight.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg一夜沖",
+        "Stg一夜向上沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg一夜沖",
+      "program": "DavidTrade",
+      "name": "Stg一夜沖",
+      "path": "src/DavidTrade/Strategies/StgDavidNight.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg一夜沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg大尾過價沖",
+      "program": "DavidTrade",
+      "name": "Stg大尾過價沖",
+      "path": "src/DavidTrade/Strategies/StgDavidPrice.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾過價沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg大尾隨時沖",
+      "program": "DavidTrade",
+      "name": "Stg大尾隨時沖",
+      "path": "src/DavidTrade/Strategies/StgDavidTime.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾隨時沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg大尾向上沖",
+      "program": "DavidTrade",
+      "name": "Stg大尾向上沖",
+      "path": "src/DavidTrade/Strategies/StgDavidUp.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾向上沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg大尾過量沖",
+      "program": "DavidTrade",
+      "name": "Stg大尾過量沖",
+      "path": "src/DavidTrade/Strategies/StgDavidVolume.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾過量沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/StgRe深度向下沖",
+      "program": "DavidTrade",
+      "name": "StgRe深度向下沖",
+      "path": "src/DavidTrade/Strategies/StgRe深度向下沖.cs",
+      "lineage": [
+        "StgBase",
+        "StgRe深度向下沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/StgRe一夜向上沖",
+      "program": "DavidTrade",
+      "name": "StgRe一夜向上沖",
+      "path": "src/DavidTrade/Strategies/StgRe深度向下沖.cs",
+      "lineage": [
+        "StgBase",
+        "StgRe深度向下沖",
+        "StgRe一夜向上沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg中國兩日沖",
+      "program": "DavidTrade",
+      "name": "Stg中國兩日沖",
+      "path": "src/DavidTrade/Strategies/Stg中國兩日沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg中國兩日沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg中國當沖v1",
+      "program": "DavidTrade",
+      "name": "Stg中國當沖v1",
+      "path": "src/DavidTrade/Strategies/Stg中國當沖v1.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg中國當沖v1"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg中國當沖v2",
+      "program": "DavidTrade",
+      "name": "Stg中國當沖v2",
+      "path": "src/DavidTrade/Strategies/Stg中國當沖v2.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg中國當沖v2"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg中國當沖v21",
+      "program": "DavidTrade",
+      "name": "Stg中國當沖v21",
+      "path": "src/DavidTrade/Strategies/Stg中國當沖v21.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg中國當沖v21"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg日本深度沖",
+      "program": "DavidTrade",
+      "name": "Stg日本深度沖",
+      "path": "src/DavidTrade/Strategies/Stg日本深度沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg日本深度沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg日本隔夜沖",
+      "program": "DavidTrade",
+      "name": "Stg日本隔夜沖",
+      "path": "src/DavidTrade/Strategies/Stg日本隔夜沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg日本隔夜沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg泰國深度沖",
+      "program": "DavidTrade",
+      "name": "Stg泰國深度沖",
+      "path": "src/DavidTrade/Strategies/Stg泰國深度沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg泰國深度沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg盤中乖離放空",
+      "program": "DavidTrade",
+      "name": "Stg盤中乖離放空",
+      "path": "src/DavidTrade/Strategies/Stg盤中乖離放空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg盤中乖離放空"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg美國深度沖",
+      "program": "DavidTrade",
+      "name": "Stg美國深度沖",
+      "path": "src/DavidTrade/Strategies/Stg美國深度沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg美國深度沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg連續過量沖2",
+      "program": "DavidTrade",
+      "name": "Stg連續過量沖2",
+      "path": "src/DavidTrade/Strategies/Stg連續過量沖2.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg連續過量沖2"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg開低就多",
+      "program": "DavidTrade",
+      "name": "Stg開低就多",
+      "path": "src/DavidTrade/Strategies/Stg開低就多.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg開低就多"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg香港當日沖",
+      "program": "DavidTrade",
+      "name": "Stg香港當日沖",
+      "path": "src/DavidTrade/Strategies/Stg香港當日沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg香港當日沖"
+      ]
+    },
+    {
+      "id": "DavidTrade/Stg香港隔夜沖",
+      "program": "DavidTrade",
+      "name": "Stg香港隔夜沖",
+      "path": "src/DavidTrade/Strategies/Stg香港隔夜沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg香港隔夜沖"
+      ]
+    },
+    {
+      "id": "NetBack/StgCallPutRatio",
+      "program": "NetBack",
+      "name": "StgCallPutRatio",
+      "path": "src/NetBack/Strategies/StgCallPutRatio.cs",
+      "lineage": [
+        "StgBase",
+        "StgCallPutRatio"
+      ]
+    },
+    {
+      "id": "NetBack/Stg你跳我就跳",
+      "program": "NetBack",
+      "name": "Stg你跳我就跳",
+      "path": "src/NetBack/Strategies/Stg你跳我就跳.cs",
+      "lineage": [
+        "StgBase",
+        "Stg你跳我就跳"
+      ]
+    },
+    {
+      "id": "NetBack/Stg借券變化",
+      "program": "NetBack",
+      "name": "Stg借券變化",
+      "path": "src/NetBack/Strategies/Stg借券變化.cs",
+      "lineage": [
+        "StgBase",
+        "Stg借券變化"
+      ]
+    },
+    {
+      "id": "NetBack/Stg傻瓜勇士",
+      "program": "NetBack",
+      "name": "Stg傻瓜勇士",
+      "path": "src/NetBack/Strategies/Stg傻瓜勇士.cs",
+      "lineage": [
+        "StgBase",
+        "StgStock",
+        "Stg傻瓜勇士"
+      ]
+    },
+    {
+      "id": "NetBack/Stg價和量",
+      "program": "NetBack",
+      "name": "Stg價和量",
+      "path": "src/NetBack/Strategies/Stg價和量.cs",
+      "lineage": [
+        "StgBase",
+        "Stg價和量"
+      ]
+    },
+    {
+      "id": "NetBack/Stg台幣台指",
+      "program": "NetBack",
+      "name": "Stg台幣台指",
+      "path": "src/NetBack/Strategies/Stg台幣台指.cs",
+      "lineage": [
+        "StgBase",
+        "Stg台幣台指"
+      ]
+    },
+    {
+      "id": "NetBack/Stg外資未平倉",
+      "program": "NetBack",
+      "name": "Stg外資未平倉",
+      "path": "src/NetBack/Strategies/Stg外資未平倉.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資未平倉"
+      ]
+    },
+    {
+      "id": "NetBack/Stg外資結算",
+      "program": "NetBack",
+      "name": "Stg外資結算",
+      "path": "src/NetBack/Strategies/Stg外資結算.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資結算"
+      ]
+    },
+    {
+      "id": "NetBack/Stg外資買賣超",
+      "program": "NetBack",
+      "name": "Stg外資買賣超",
+      "path": "src/NetBack/Strategies/Stg外資買賣超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資買賣超"
+      ]
+    },
+    {
+      "id": "NetBack/Stg外資買賣金額",
+      "program": "NetBack",
+      "name": "Stg外資買賣金額",
+      "path": "src/NetBack/Strategies/Stg外資買賣金額.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資買賣金額"
+      ]
+    },
+    {
+      "id": "NetBack/Stg擠氣球",
+      "program": "NetBack",
+      "name": "Stg擠氣球",
+      "path": "src/NetBack/Strategies/Stg擠氣球.cs",
+      "lineage": [
+        "StgBase",
+        "Stg擠氣球"
+      ]
+    },
+    {
+      "id": "NetBack/Stg擠氣球個股",
+      "program": "NetBack",
+      "name": "Stg擠氣球個股",
+      "path": "src/NetBack/Strategies/Stg擠氣球個股.cs",
+      "lineage": [
+        "StgBase",
+        "StgStock",
+        "Stg擠氣球個股"
+      ]
+    },
+    {
+      "id": "NetBack/Stg散戶指標",
+      "program": "NetBack",
+      "name": "Stg散戶指標",
+      "path": "src/NetBack/Strategies/Stg散戶指標.cs",
+      "lineage": [
+        "StgBase",
+        "Stg散戶指標"
+      ]
+    },
+    {
+      "id": "NetBack/Stg正逆價差",
+      "program": "NetBack",
+      "name": "Stg正逆價差",
+      "path": "src/NetBack/Strategies/Stg正逆價差.cs",
+      "lineage": [
+        "StgBase",
+        "Stg正逆價差"
+      ]
+    },
+    {
+      "id": "NetBack/Stg漲跌公司比買",
+      "program": "NetBack",
+      "name": "Stg漲跌公司比買",
+      "path": "src/NetBack/Strategies/Stg漲跌公司比買.cs",
+      "lineage": [
+        "StgBase",
+        "Stg漲跌公司比買"
+      ]
+    },
+    {
+      "id": "NetBack/Stg漲跌抓反轉",
+      "program": "NetBack",
+      "name": "Stg漲跌抓反轉",
+      "path": "src/NetBack/Strategies/Stg漲跌抓反轉.cs",
+      "lineage": [
+        "StgBase",
+        "Stg漲跌抓反轉"
+      ]
+    },
+    {
+      "id": "NetBack/Stg證交所明牌",
+      "program": "NetBack",
+      "name": "Stg證交所明牌",
+      "path": "src/NetBack/Strategies/Stg證交所明牌.cs",
+      "lineage": [
+        "StgBase",
+        "StgStock",
+        "Stg證交所明牌"
+      ]
+    },
+    {
+      "id": "NetBack/Stg連紅K賣",
+      "program": "NetBack",
+      "name": "Stg連紅K賣",
+      "path": "src/NetBack/Strategies/Stg連紅K賣.cs",
+      "lineage": [
+        "StgBase",
+        "Stg連紅K賣"
+      ]
+    },
+    {
+      "id": "NetBack/Stg連黑K買",
+      "program": "NetBack",
+      "name": "Stg連黑K買",
+      "path": "src/NetBack/Strategies/Stg連黑K買.cs",
+      "lineage": [
+        "StgBase",
+        "Stg連黑K買"
+      ]
+    },
+    {
+      "id": "NetBack/Stg連黑K買個股",
+      "program": "NetBack",
+      "name": "Stg連黑K買個股",
+      "path": "src/NetBack/Strategies/Stg連黑K買個股.cs",
+      "lineage": [
+        "StgBase",
+        "StgStock",
+        "Stg連黑K買個股"
+      ]
+    },
+    {
+      "id": "RemoteCrypto/StgBDS",
+      "program": "RemoteCrypto",
+      "name": "StgBDS",
+      "path": "src/RemoteCrypto/Strategies/StgBDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS"
+      ]
+    },
+    {
+      "id": "RemoteCrypto/StgTEST",
+      "program": "RemoteCrypto",
+      "name": "StgTEST",
+      "path": "src/RemoteCrypto/Strategies/StgTEST.cs",
+      "lineage": [
+        "StgBase",
+        "StgTEST"
+      ]
+    },
+    {
+      "id": "StgClient/StgBDS",
+      "program": "StgClient",
+      "name": "StgBDS",
+      "path": "src/StgClient/Strategies/StgBDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS"
+      ]
+    },
+    {
+      "id": "StgClient/StgRandBS",
+      "program": "StgClient",
+      "name": "StgRandBS",
+      "path": "src/StgClient/Strategies/StgRandBS.cs",
+      "lineage": [
+        "StgBase",
+        "StgRandBS"
+      ]
+    },
+    {
+      "id": "StockSDS/StgBuyHold",
+      "program": "StockSDS",
+      "name": "StgBuyHold",
+      "path": "src/StockSDS/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "SuperABS/StgABO",
+      "program": "SuperABS",
+      "name": "StgABO",
+      "path": "src/SuperABS/Strategies/StgABO.cs",
+      "lineage": [
+        "StgBase",
+        "StgABO"
+      ]
+    },
+    {
+      "id": "SuperABS/StgABS",
+      "program": "SuperABS",
+      "name": "StgABS",
+      "path": "src/SuperABS/Strategies/StgABS.cs",
+      "lineage": [
+        "StgBase",
+        "StgABS"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBB",
+      "program": "SuperBDS",
+      "name": "StgBB",
+      "path": "src/SuperBDS/Strategies/StgBB.cs",
+      "lineage": [
+        "StgBase",
+        "StgBB"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDS",
+      "program": "SuperBDS",
+      "name": "StgBDS",
+      "path": "src/SuperBDS/Strategies/StgBDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSA",
+      "program": "SuperBDS",
+      "name": "StgBDSA",
+      "path": "src/SuperBDS/Strategies/StgBDSA.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSA"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSBuy",
+      "program": "SuperBDS",
+      "name": "StgBDSBuy",
+      "path": "src/SuperBDS/Strategies/StgBDSBuy.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSBuy"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSv2",
+      "program": "SuperBDS",
+      "name": "StgBDSv2",
+      "path": "src/SuperBDS/Strategies/StgBDSv2.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSv2"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSX",
+      "program": "SuperBDS",
+      "name": "StgBDSX",
+      "path": "src/SuperBDS/Strategies/StgBDSX.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSX"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSXv2",
+      "program": "SuperBDS",
+      "name": "StgBDSXv2",
+      "path": "src/SuperBDS/Strategies/StgBDSXv2.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSXv2"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSXv3",
+      "program": "SuperBDS",
+      "name": "StgBDSXv3",
+      "path": "src/SuperBDS/Strategies/StgBDSXv3.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSXv3"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSXv4",
+      "program": "SuperBDS",
+      "name": "StgBDSXv4",
+      "path": "src/SuperBDS/Strategies/StgBDSXv4.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSXv4"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSXv5",
+      "program": "SuperBDS",
+      "name": "StgBDSXv5",
+      "path": "src/SuperBDS/Strategies/StgBDSXv5.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSXv5"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDSXv6",
+      "program": "SuperBDS",
+      "name": "StgBDSXv6",
+      "path": "src/SuperBDS/Strategies/StgBDSXv6.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDSXv6"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBDS當沖",
+      "program": "SuperBDS",
+      "name": "StgBDS當沖",
+      "path": "src/SuperBDS/Strategies/StgBDS當沖.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS當沖"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBHS",
+      "program": "SuperBDS",
+      "name": "StgBHS",
+      "path": "src/SuperBDS/Strategies/StgBHS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBHS"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBHSv2",
+      "program": "SuperBDS",
+      "name": "StgBHSv2",
+      "path": "src/SuperBDS/Strategies/StgBHSv2.cs",
+      "lineage": [
+        "StgBase",
+        "StgBHSv2"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBPS",
+      "program": "SuperBDS",
+      "name": "StgBPS",
+      "path": "src/SuperBDS/Strategies/StgBPS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBPS"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgBuyHold",
+      "program": "SuperBDS",
+      "name": "StgBuyHold",
+      "path": "src/SuperBDS/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgDayNM",
+      "program": "SuperBDS",
+      "name": "StgDayNM",
+      "path": "src/SuperBDS/Strategies/StgDayNM.cs",
+      "lineage": [
+        "StgBase",
+        "StgDayNM"
+      ]
+    },
+    {
+      "id": "SuperBDS/StgJumpJump",
+      "program": "SuperBDS",
+      "name": "StgJumpJump",
+      "path": "src/SuperBDS/Strategies/StgJumpJump.cs",
+      "lineage": [
+        "StgBase",
+        "StgJumpJump"
+      ]
+    },
+    {
+      "id": "SuperBDS/Stg時間當沖",
+      "program": "SuperBDS",
+      "name": "Stg時間當沖",
+      "path": "src/SuperBDS/Strategies/Stg時間當沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間當沖"
+      ]
+    },
+    {
+      "id": "SuperCB/StgBHS",
+      "program": "SuperCB",
+      "name": "StgBHS",
+      "path": "src/SuperCB/Strategies/StgBHS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBHS"
+      ]
+    },
+    {
+      "id": "SuperCB/StgBLSH",
+      "program": "SuperCB",
+      "name": "StgBLSH",
+      "path": "src/SuperCB/Strategies/StgBLSH.cs",
+      "lineage": [
+        "StgBase",
+        "StgBLSH"
+      ]
+    },
+    {
+      "id": "SuperCB/StgBLSH2",
+      "program": "SuperCB",
+      "name": "StgBLSH2",
+      "path": "src/SuperCB/Strategies/StgBLSH2.cs",
+      "lineage": [
+        "StgBase",
+        "StgBLSH2"
+      ]
+    },
+    {
+      "id": "SuperCB/StgXBHS",
+      "program": "SuperCB",
+      "name": "StgXBHS",
+      "path": "src/SuperCB/Strategies/StgXBHS.cs",
+      "lineage": [
+        "StgBase",
+        "StgXBase",
+        "StgXBHS"
+      ]
+    },
+    {
+      "id": "SuperCB/StgXBLSH",
+      "program": "SuperCB",
+      "name": "StgXBLSH",
+      "path": "src/SuperCB/Strategies/StgXBLSH.cs",
+      "lineage": [
+        "StgBase",
+        "StgXBase",
+        "StgXBLSH"
+      ]
+    },
+    {
+      "id": "SuperCB/StgXBLSH2",
+      "program": "SuperCB",
+      "name": "StgXBLSH2",
+      "path": "src/SuperCB/Strategies/StgXBLSH2.cs",
+      "lineage": [
+        "StgBase",
+        "StgXBase",
+        "StgXBLSH2"
+      ]
+    },
+    {
+      "id": "SuperCB/StgXCombo",
+      "program": "SuperCB",
+      "name": "StgXCombo",
+      "path": "src/SuperCB/Strategies/StgXCombo.cs",
+      "lineage": [
+        "StgBase",
+        "StgXBase",
+        "StgXCombo"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBB",
+      "program": "SuperChina",
+      "name": "StgBB",
+      "path": "src/SuperChina/Strategies/StgBB.cs",
+      "lineage": [
+        "StgBase",
+        "StgBB"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBBZ",
+      "program": "SuperChina",
+      "name": "StgBBZ",
+      "path": "src/SuperChina/Strategies/StgBBZ.cs",
+      "lineage": [
+        "StgBase",
+        "StgBB",
+        "StgBBZ"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBD25",
+      "program": "SuperChina",
+      "name": "StgBD25",
+      "path": "src/SuperChina/Strategies/StgBD25.cs",
+      "lineage": [
+        "StgBase",
+        "StgBD25"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBD26",
+      "program": "SuperChina",
+      "name": "StgBD26",
+      "path": "src/SuperChina/Strategies/StgBD26.cs",
+      "lineage": [
+        "StgBase",
+        "StgBD26"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBD27",
+      "program": "SuperChina",
+      "name": "StgBD27",
+      "path": "src/SuperChina/Strategies/StgBD27.cs",
+      "lineage": [
+        "StgBase",
+        "StgBD27"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBD28",
+      "program": "SuperChina",
+      "name": "StgBD28",
+      "path": "src/SuperChina/Strategies/StgBD28.cs",
+      "lineage": [
+        "StgBase",
+        "StgBD28"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBD29",
+      "program": "SuperChina",
+      "name": "StgBD29",
+      "path": "src/SuperChina/Strategies/StgBD29.cs",
+      "lineage": [
+        "StgBase",
+        "StgBD29"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBD30",
+      "program": "SuperChina",
+      "name": "StgBD30",
+      "path": "src/SuperChina/Strategies/StgBD30.cs",
+      "lineage": [
+        "StgBase",
+        "StgBD30"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBDAS",
+      "program": "SuperChina",
+      "name": "StgBDAS",
+      "path": "src/SuperChina/Strategies/StgBDAS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDAS"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBDAZ",
+      "program": "SuperChina",
+      "name": "StgBDAZ",
+      "path": "src/SuperChina/Strategies/StgBDAZ.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDAS",
+        "StgBDAZ"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBDR",
+      "program": "SuperChina",
+      "name": "StgBDR",
+      "path": "src/SuperChina/Strategies/StgBDR.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDR"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBDS",
+      "program": "SuperChina",
+      "name": "StgBDS",
+      "path": "src/SuperChina/Strategies/StgBDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBDZ",
+      "program": "SuperChina",
+      "name": "StgBDZ",
+      "path": "src/SuperChina/Strategies/StgBDZ.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS",
+        "StgBDZ"
+      ]
+    },
+    {
+      "id": "SuperChina/StgBRS",
+      "program": "SuperChina",
+      "name": "StgBRS",
+      "path": "src/SuperChina/Strategies/StgBRS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBRS"
+      ]
+    },
+    {
+      "id": "SuperChina/StgHDM",
+      "program": "SuperChina",
+      "name": "StgHDM",
+      "path": "src/SuperChina/Strategies/StgHDM.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDM"
+      ]
+    },
+    {
+      "id": "SuperChina/StgMA",
+      "program": "SuperChina",
+      "name": "StgMA",
+      "path": "src/SuperChina/Strategies/StgMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgMA"
+      ]
+    },
+    {
+      "id": "SuperChina/StgQuote",
+      "program": "SuperChina",
+      "name": "StgQuote",
+      "path": "src/SuperChina/Strategies/StgQuote.cs",
+      "lineage": [
+        "StgBase",
+        "StgQuote"
+      ]
+    },
+    {
+      "id": "SuperClaw/StgBuyHold",
+      "program": "SuperClaw",
+      "name": "StgBuyHold",
+      "path": "src/SuperClaw/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "SuperClaw/Stg多空三段",
+      "program": "SuperClaw",
+      "name": "Stg多空三段",
+      "path": "src/SuperClaw/Strategies/Stg多空三段.cs",
+      "lineage": [
+        "StgBase",
+        "Stg多空三段"
+      ]
+    },
+    {
+      "id": "SuperClaw/Stg夜多日空",
+      "program": "SuperClaw",
+      "name": "Stg夜多日空",
+      "path": "src/SuperClaw/Strategies/Stg夜多日空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg夜多日空"
+      ]
+    },
+    {
+      "id": "SuperClaw/Stg夜多日空v3",
+      "program": "SuperClaw",
+      "name": "Stg夜多日空v3",
+      "path": "src/SuperClaw/Strategies/Stg夜多日空v3.cs",
+      "lineage": [
+        "StgBase",
+        "Stg夜多日空v3"
+      ]
+    },
+    {
+      "id": "SuperClaw/Stg日內放空",
+      "program": "SuperClaw",
+      "name": "Stg日內放空",
+      "path": "src/SuperClaw/Strategies/Stg日內放空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg日內放空"
+      ]
+    },
+    {
+      "id": "SuperClaw/Stg東北亞一號",
+      "program": "SuperClaw",
+      "name": "Stg東北亞一號",
+      "path": "src/SuperClaw/Strategies/Stg東北亞一號.cs",
+      "lineage": [
+        "StgBase",
+        "Stg東北亞一號"
+      ]
+    },
+    {
+      "id": "SuperClaw/Stg隔夜做多",
+      "program": "SuperClaw",
+      "name": "Stg隔夜做多",
+      "path": "src/SuperClaw/Strategies/Stg隔夜做多.cs",
+      "lineage": [
+        "StgBase",
+        "Stg隔夜做多"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgDMS",
+      "program": "SuperCombo",
+      "name": "StgDMS",
+      "path": "src/SuperCombo/Strategies/StgDMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMS"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgDMSM",
+      "program": "SuperCombo",
+      "name": "StgDMSM",
+      "path": "src/SuperCombo/Strategies/StgDMSM.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMSM"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgDMSR",
+      "program": "SuperCombo",
+      "name": "StgDMSR",
+      "path": "src/SuperCombo/Strategies/StgDMSR.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMSR"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgDMSv2",
+      "program": "SuperCombo",
+      "name": "StgDMSv2",
+      "path": "src/SuperCombo/Strategies/StgDMSv2.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMSv2"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgJustHold",
+      "program": "SuperCombo",
+      "name": "StgJustHold",
+      "path": "src/SuperCombo/Strategies/StgJustHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgJustHold"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgRollYield",
+      "program": "SuperCombo",
+      "name": "StgRollYield",
+      "path": "src/SuperCombo/Strategies/StgRollYield.cs",
+      "lineage": [
+        "StgBase",
+        "StgRollYield"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgSDC",
+      "program": "SuperCombo",
+      "name": "StgSDC",
+      "path": "src/SuperCombo/Strategies/StgSDC.cs",
+      "lineage": [
+        "StgBase",
+        "StgSDC"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgSMS",
+      "program": "SuperCombo",
+      "name": "StgSMS",
+      "path": "src/SuperCombo/Strategies/StgSMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgTBO",
+      "program": "SuperCombo",
+      "name": "StgTBO",
+      "path": "src/SuperCombo/Strategies/StgTBO.cs",
+      "lineage": [
+        "StgBase",
+        "StgTBO"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgTKern",
+      "program": "SuperCombo",
+      "name": "StgTKern",
+      "path": "src/SuperCombo/Strategies/StgTKern.cs",
+      "lineage": [
+        "StgBase",
+        "StgTKern"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgTMA",
+      "program": "SuperCombo",
+      "name": "StgTMA",
+      "path": "src/SuperCombo/Strategies/StgTMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgTMA"
+      ]
+    },
+    {
+      "id": "SuperCombo/StgVRP",
+      "program": "SuperCombo",
+      "name": "StgVRP",
+      "path": "src/SuperCombo/Strategies/StgVRP.cs",
+      "lineage": [
+        "StgBase",
+        "StgVRP"
+      ]
+    },
+    {
+      "id": "SuperCrypto/StgBDS",
+      "program": "SuperCrypto",
+      "name": "StgBDS",
+      "path": "src/SuperCrypto/Strategies/StgBDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS"
+      ]
+    },
+    {
+      "id": "SuperCrypto/StgTEST",
+      "program": "SuperCrypto",
+      "name": "StgTEST",
+      "path": "src/SuperCrypto/Strategies/StgTEST.cs",
+      "lineage": [
+        "StgBase",
+        "StgTEST"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHBDS",
+      "program": "SuperDaily",
+      "name": "StgHBDS",
+      "path": "src/SuperDaily/Strategies/StgHBDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgHBDS"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHD2",
+      "program": "SuperDaily",
+      "name": "StgHD2",
+      "path": "src/SuperDaily/Strategies/StgHD2.cs",
+      "lineage": [
+        "StgBase",
+        "StgHD2"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHD3",
+      "program": "SuperDaily",
+      "name": "StgHD3",
+      "path": "src/SuperDaily/Strategies/StgHD3.cs",
+      "lineage": [
+        "StgBase",
+        "StgHD3"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDM",
+      "program": "SuperDaily",
+      "name": "StgHDM",
+      "path": "src/SuperDaily/Strategies/StgHDM.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDM"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDMSL",
+      "program": "SuperDaily",
+      "name": "StgHDMSL",
+      "path": "src/SuperDaily/Strategies/StgHDMSL.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDMSL"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDMx",
+      "program": "SuperDaily",
+      "name": "StgHDMx",
+      "path": "src/SuperDaily/Strategies/StgHDMx.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDMx"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDM宇",
+      "program": "SuperDaily",
+      "name": "StgHDM宇",
+      "path": "src/SuperDaily/Strategies/StgHDM宇.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDM宇"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDS",
+      "program": "SuperDaily",
+      "name": "StgHDS",
+      "path": "src/SuperDaily/Strategies/StgHDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDS"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDSMA",
+      "program": "SuperDaily",
+      "name": "StgHDSMA",
+      "path": "src/SuperDaily/Strategies/StgHDSMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDSMA"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDV",
+      "program": "SuperDaily",
+      "name": "StgHDV",
+      "path": "src/SuperDaily/Strategies/StgHDV.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDV"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDZ",
+      "program": "SuperDaily",
+      "name": "StgHDZ",
+      "path": "src/SuperDaily/Strategies/StgHDZ.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDZ"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgHDZmy",
+      "program": "SuperDaily",
+      "name": "StgHDZmy",
+      "path": "src/SuperDaily/Strategies/StgHDZmy.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDZmy"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgPIndex",
+      "program": "SuperDaily",
+      "name": "StgPIndex",
+      "path": "src/SuperDaily/Strategies/StgPIndex.cs",
+      "lineage": [
+        "StgBase",
+        "StgPIndex"
+      ]
+    },
+    {
+      "id": "SuperDaily/StgRSI均線",
+      "program": "SuperDaily",
+      "name": "StgRSI均線",
+      "path": "src/SuperDaily/Strategies/StgRSI均線.cs",
+      "lineage": [
+        "StgBase",
+        "StgRSI均線"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg五分日沖",
+      "program": "SuperDaily",
+      "name": "Stg五分日沖",
+      "path": "src/SuperDaily/Strategies/Stg五分日沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg五分日沖"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg你跳我就跳",
+      "program": "SuperDaily",
+      "name": "Stg你跳我就跳",
+      "path": "src/SuperDaily/Strategies/Stg你跳我就跳.cs",
+      "lineage": [
+        "StgBase",
+        "Stg你跳我就跳"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg北上資金買賣超",
+      "program": "SuperDaily",
+      "name": "Stg北上資金買賣超",
+      "path": "src/SuperDaily/Strategies/Stg北上資金買賣超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg北上資金買賣超"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg台積No1",
+      "program": "SuperDaily",
+      "name": "Stg台積No1",
+      "path": "src/SuperDaily/Strategies/Stg台積No1.cs",
+      "lineage": [
+        "StgBase",
+        "Stg台積No1"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg台積No1Tick",
+      "program": "SuperDaily",
+      "name": "Stg台積No1Tick",
+      "path": "src/SuperDaily/Strategies/Stg台積No1Tick.cs",
+      "lineage": [
+        "StgBase",
+        "Stg台積No1Tick"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg外資未平倉",
+      "program": "SuperDaily",
+      "name": "Stg外資未平倉",
+      "path": "src/SuperDaily/Strategies/Stg外資未平倉.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資未平倉"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg外資未平倉_日停損",
+      "program": "SuperDaily",
+      "name": "Stg外資未平倉_日停損",
+      "path": "src/SuperDaily/Strategies/Stg外資未平倉_日停損.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資未平倉_日停損"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg外資淨買比",
+      "program": "SuperDaily",
+      "name": "Stg外資淨買比",
+      "path": "src/SuperDaily/Strategies/Stg外資淨買比.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資淨買比"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg外資買賣超",
+      "program": "SuperDaily",
+      "name": "Stg外資買賣超",
+      "path": "src/SuperDaily/Strategies/Stg外資買賣超.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資買賣超"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg外資買賣超_日停損",
+      "program": "SuperDaily",
+      "name": "Stg外資買賣超_日停損",
+      "path": "src/SuperDaily/Strategies/Stg外資買賣超_日停損.cs",
+      "lineage": [
+        "StgBase",
+        "Stg外資買賣超_日停損"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg夜多日空v3",
+      "program": "SuperDaily",
+      "name": "Stg夜多日空v3",
+      "path": "src/SuperDaily/Strategies/Stg夜多日空v3.cs",
+      "lineage": [
+        "StgBase",
+        "Stg夜多日空v3"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg大漲追夜盤",
+      "program": "SuperDaily",
+      "name": "Stg大漲追夜盤",
+      "path": "src/SuperDaily/Strategies/Stg大漲追夜盤.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大漲追夜盤"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg大跌追夜盤",
+      "program": "SuperDaily",
+      "name": "Stg大跌追夜盤",
+      "path": "src/SuperDaily/Strategies/Stg大跌追夜盤.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大跌追夜盤"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg委量沖",
+      "program": "SuperDaily",
+      "name": "Stg委量沖",
+      "path": "src/SuperDaily/Strategies/Stg委量沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg委量沖"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg委量沖TICK",
+      "program": "SuperDaily",
+      "name": "Stg委量沖TICK",
+      "path": "src/SuperDaily/Strategies/Stg委量沖TICK.cs",
+      "lineage": [
+        "StgBase",
+        "Stg委量沖TICK"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg擠氣球作多",
+      "program": "SuperDaily",
+      "name": "Stg擠氣球作多",
+      "path": "src/SuperDaily/Strategies/Stg擠氣球作多.cs",
+      "lineage": [
+        "StgBase",
+        "Stg擠氣球作多"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg新低作多",
+      "program": "SuperDaily",
+      "name": "Stg新低作多",
+      "path": "src/SuperDaily/Strategies/Stg新低作多.cs",
+      "lineage": [
+        "StgBase",
+        "Stg新低作多"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg新低作多新高出",
+      "program": "SuperDaily",
+      "name": "Stg新低作多新高出",
+      "path": "src/SuperDaily/Strategies/Stg新低作多新高出.cs",
+      "lineage": [
+        "StgBase",
+        "Stg新低作多新高出"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg時間周沖",
+      "program": "SuperDaily",
+      "name": "Stg時間周沖",
+      "path": "src/SuperDaily/Strategies/Stg時間周沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間周沖"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg時間委量沖",
+      "program": "SuperDaily",
+      "name": "Stg時間委量沖",
+      "path": "src/SuperDaily/Strategies/Stg時間委量沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間委量沖"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg時間延長沖",
+      "program": "SuperDaily",
+      "name": "Stg時間延長沖",
+      "path": "src/SuperDaily/Strategies/Stg時間延長沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間延長沖"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg時間當沖",
+      "program": "SuperDaily",
+      "name": "Stg時間當沖",
+      "path": "src/SuperDaily/Strategies/Stg時間當沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間當沖"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg時間當沖_多次進場",
+      "program": "SuperDaily",
+      "name": "Stg時間當沖_多次進場",
+      "path": "src/SuperDaily/Strategies/Stg時間當沖_多次進場.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間當沖_多次進場"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg時間當沖_延長出場",
+      "program": "SuperDaily",
+      "name": "Stg時間當沖_延長出場",
+      "path": "src/SuperDaily/Strategies/Stg時間當沖_延長出場.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間當沖_延長出場"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg時間移停",
+      "program": "SuperDaily",
+      "name": "Stg時間移停",
+      "path": "src/SuperDaily/Strategies/Stg時間移停.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間移停"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg結算前多",
+      "program": "SuperDaily",
+      "name": "Stg結算前多",
+      "path": "src/SuperDaily/Strategies/Stg結算前多.cs",
+      "lineage": [
+        "StgBase",
+        "Stg結算前多"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg買賣超加黑K",
+      "program": "SuperDaily",
+      "name": "Stg買賣超加黑K",
+      "path": "src/SuperDaily/Strategies/Stg買賣超加黑K.cs",
+      "lineage": [
+        "StgBase",
+        "Stg買賣超加黑K"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg連黑作多",
+      "program": "SuperDaily",
+      "name": "Stg連黑作多",
+      "path": "src/SuperDaily/Strategies/Stg連黑作多.cs",
+      "lineage": [
+        "StgBase",
+        "Stg連黑作多"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg選擇權未平倉均線",
+      "program": "SuperDaily",
+      "name": "Stg選擇權未平倉均線",
+      "path": "src/SuperDaily/Strategies/Stg選擇權未平倉均線.cs",
+      "lineage": [
+        "StgBase",
+        "Stg選擇權未平倉均線"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg選擇賣買未平倉比",
+      "program": "SuperDaily",
+      "name": "Stg選擇賣買未平倉比",
+      "path": "src/SuperDaily/Strategies/Stg選擇賣買未平倉比.cs",
+      "lineage": [
+        "StgBase",
+        "Stg選擇賣買未平倉比"
+      ]
+    },
+    {
+      "id": "SuperDaily/Stg開高回補沖",
+      "program": "SuperDaily",
+      "name": "Stg開高回補沖",
+      "path": "src/SuperDaily/Strategies/Stg開高回補沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg開高回補沖"
+      ]
+    },
+    {
+      "id": "SuperDLS/StgDLS",
+      "program": "SuperDLS",
+      "name": "StgDLS",
+      "path": "src/SuperDLS/Strategies/StgDLS.cs",
+      "lineage": [
+        "StgBase",
+        "StgDLS"
+      ]
+    },
+    {
+      "id": "SuperETF/StgSAH",
+      "program": "SuperETF",
+      "name": "StgSAH",
+      "path": "src/SuperETF/Strategies/StgSAH.cs",
+      "lineage": [
+        "StgBase",
+        "StgSAH"
+      ]
+    },
+    {
+      "id": "SuperETF/StgSMS",
+      "program": "SuperETF",
+      "name": "StgSMS",
+      "path": "src/SuperETF/Strategies/StgSMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS"
+      ]
+    },
+    {
+      "id": "SuperETF/StgSON",
+      "program": "SuperETF",
+      "name": "StgSON",
+      "path": "src/SuperETF/Strategies/StgSON.cs",
+      "lineage": [
+        "StgBase",
+        "StgSON"
+      ]
+    },
+    {
+      "id": "SuperETF/StgSOX",
+      "program": "SuperETF",
+      "name": "StgSOX",
+      "path": "src/SuperETF/Strategies/StgSOX.cs",
+      "lineage": [
+        "StgBase",
+        "StgSOX"
+      ]
+    },
+    {
+      "id": "SuperETF/StgSOX2",
+      "program": "SuperETF",
+      "name": "StgSOX2",
+      "path": "src/SuperETF/Strategies/StgSOX2.cs",
+      "lineage": [
+        "StgBase",
+        "StgSOX2"
+      ]
+    },
+    {
+      "id": "SuperETF/StgSwMA",
+      "program": "SuperETF",
+      "name": "StgSwMA",
+      "path": "src/SuperETF/Strategies/StgSwMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgSwMA"
+      ]
+    },
+    {
+      "id": "SuperHour/StgBuyHold",
+      "program": "SuperHour",
+      "name": "StgBuyHold",
+      "path": "src/SuperHour/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "SuperHour/Stg價格突破",
+      "program": "SuperHour",
+      "name": "Stg價格突破",
+      "path": "src/SuperHour/Strategies/Stg價格突破.cs",
+      "lineage": [
+        "StgBase",
+        "Stg價格突破"
+      ]
+    },
+    {
+      "id": "SuperHour/Stg布林通道",
+      "program": "SuperHour",
+      "name": "Stg布林通道",
+      "path": "src/SuperHour/Strategies/Stg布林通道.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林通道"
+      ]
+    },
+    {
+      "id": "SuperHour/Stg持有固定時間",
+      "program": "SuperHour",
+      "name": "Stg持有固定時間",
+      "path": "src/SuperHour/Strategies/Stg持有固定時間.cs",
+      "lineage": [
+        "StgBase",
+        "Stg持有固定時間"
+      ]
+    },
+    {
+      "id": "SuperHour/Stg簡單動能",
+      "program": "SuperHour",
+      "name": "Stg簡單動能",
+      "path": "src/SuperHour/Strategies/Stg簡單動能.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單動能"
+      ]
+    },
+    {
+      "id": "SuperHour/Stg簡單均線",
+      "program": "SuperHour",
+      "name": "Stg簡單均線",
+      "path": "src/SuperHour/Strategies/Stg簡單均線.cs",
+      "lineage": [
+        "StgBase",
+        "Stg簡單均線"
+      ]
+    },
+    {
+      "id": "SuperInvETF/StgSMS",
+      "program": "SuperInvETF",
+      "name": "StgSMS",
+      "path": "src/SuperInvETF/Strategies/StgSMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS"
+      ]
+    },
+    {
+      "id": "SuperMA/StgBO",
+      "program": "SuperMA",
+      "name": "StgBO",
+      "path": "src/SuperMA/Strategies/StgBO.cs",
+      "lineage": [
+        "StgBase",
+        "StgBO"
+      ]
+    },
+    {
+      "id": "SuperMA/StgBOM",
+      "program": "SuperMA",
+      "name": "StgBOM",
+      "path": "src/SuperMA/Strategies/StgBOM.cs",
+      "lineage": [
+        "StgBase",
+        "StgBOM"
+      ]
+    },
+    {
+      "id": "SuperMA/StgFTSv1",
+      "program": "SuperMA",
+      "name": "StgFTSv1",
+      "path": "src/SuperMA/Strategies/StgFTSv1.cs",
+      "lineage": [
+        "StgBase",
+        "StgFTSv1"
+      ]
+    },
+    {
+      "id": "SuperMA/StgMA",
+      "program": "SuperMA",
+      "name": "StgMA",
+      "path": "src/SuperMA/Strategies/StgMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgMA"
+      ]
+    },
+    {
+      "id": "SuperMA/StgMAv2",
+      "program": "SuperMA",
+      "name": "StgMAv2",
+      "path": "src/SuperMA/Strategies/StgMAv2.cs",
+      "lineage": [
+        "StgBase",
+        "StgMAv2"
+      ]
+    },
+    {
+      "id": "SuperMA/StgQuote",
+      "program": "SuperMA",
+      "name": "StgQuote",
+      "path": "src/SuperMA/Strategies/StgQuote.cs",
+      "lineage": [
+        "StgBase",
+        "StgQuote"
+      ]
+    },
+    {
+      "id": "SuperMA/StgSMS",
+      "program": "SuperMA",
+      "name": "StgSMS",
+      "path": "src/SuperMA/Strategies/StgSMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS"
+      ]
+    },
+    {
+      "id": "SuperMA/StgSMSv2",
+      "program": "SuperMA",
+      "name": "StgSMSv2",
+      "path": "src/SuperMA/Strategies/StgSMSv2.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMSv2"
+      ]
+    },
+    {
+      "id": "SuperOptionF/StgABC",
+      "program": "SuperOptionF",
+      "name": "StgABC",
+      "path": "src/SuperOptionF/Strategies/StgABC.cs",
+      "lineage": [
+        "StgBase",
+        "StgABC"
+      ]
+    },
+    {
+      "id": "SuperOptionF/StgAPT",
+      "program": "SuperOptionF",
+      "name": "StgAPT",
+      "path": "src/SuperOptionF/Strategies/StgAPT.cs",
+      "lineage": [
+        "StgBase",
+        "StgAPT"
+      ]
+    },
+    {
+      "id": "SuperOptionF/StgAPT3",
+      "program": "SuperOptionF",
+      "name": "StgAPT3",
+      "path": "src/SuperOptionF/Strategies/StgAPT3.cs",
+      "lineage": [
+        "StgBase",
+        "StgAPT3"
+      ]
+    },
+    {
+      "id": "SuperOptionF/StgART",
+      "program": "SuperOptionF",
+      "name": "StgART",
+      "path": "src/SuperOptionF/Strategies/StgART.cs",
+      "lineage": [
+        "StgBase",
+        "StgART"
+      ]
+    },
+    {
+      "id": "SuperOptionF/StgBCSP",
+      "program": "SuperOptionF",
+      "name": "StgBCSP",
+      "path": "src/SuperOptionF/Strategies/StgBCSP.cs",
+      "lineage": [
+        "StgBase",
+        "StgBCSP"
+      ]
+    },
+    {
+      "id": "SuperOptionF/Stg時間周沖",
+      "program": "SuperOptionF",
+      "name": "Stg時間周沖",
+      "path": "src/SuperOptionF/Strategies/Stg時間周沖.cs",
+      "lineage": [
+        "StgBase",
+        "Stg時間周沖"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgBalloon",
+      "program": "SuperSDS",
+      "name": "StgBalloon",
+      "path": "src/SuperSDS/Strategies/StgBalloon.cs",
+      "lineage": [
+        "StgBase",
+        "StgBalloon"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgBHS",
+      "program": "SuperSDS",
+      "name": "StgBHS",
+      "path": "src/SuperSDS/Strategies/StgBHS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBHS"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgBollingerBand",
+      "program": "SuperSDS",
+      "name": "StgBollingerBand",
+      "path": "src/SuperSDS/Strategies/StgBollingerBand.cs",
+      "lineage": [
+        "StgBase",
+        "StgBollingerBand"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgBreakOut",
+      "program": "SuperSDS",
+      "name": "StgBreakOut",
+      "path": "src/SuperSDS/Strategies/StgBreakOut.cs",
+      "lineage": [
+        "StgBase",
+        "StgBreakOut"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgBuyHold",
+      "program": "SuperSDS",
+      "name": "StgBuyHold",
+      "path": "src/SuperSDS/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgHDS",
+      "program": "SuperSDS",
+      "name": "StgHDS",
+      "path": "src/SuperSDS/Strategies/StgHDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDS"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgHDS_停損",
+      "program": "SuperSDS",
+      "name": "StgHDS_停損",
+      "path": "src/SuperSDS/Strategies/StgHDS_停損.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDS_停損"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgHDX",
+      "program": "SuperSDS",
+      "name": "StgHDX",
+      "path": "src/SuperSDS/Strategies/StgHDX.cs",
+      "lineage": [
+        "StgBase",
+        "StgHDX"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgMA",
+      "program": "SuperSDS",
+      "name": "StgMA",
+      "path": "src/SuperSDS/Strategies/StgMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgMA"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgPriceVolume",
+      "program": "SuperSDS",
+      "name": "StgPriceVolume",
+      "path": "src/SuperSDS/Strategies/StgPriceVolume.cs",
+      "lineage": [
+        "StgBase",
+        "StgPriceVolume"
+      ]
+    },
+    {
+      "id": "SuperSDS/StgSMS",
+      "program": "SuperSDS",
+      "name": "StgSMS",
+      "path": "src/SuperSDS/Strategies/StgSMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS"
+      ]
+    },
+    {
+      "id": "SuperSDS/Stg均線下放空",
+      "program": "SuperSDS",
+      "name": "Stg均線下放空",
+      "path": "src/SuperSDS/Strategies/Stg均線下放空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg均線下放空"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgBnH",
+      "program": "SuperSP500",
+      "name": "StgBnH",
+      "path": "src/SuperSP500/Strategies/StgBnH.cs",
+      "lineage": [
+        "StgBase",
+        "StgBnH"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgDMS",
+      "program": "SuperSP500",
+      "name": "StgDMS",
+      "path": "src/SuperSP500/Strategies/StgDMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMS"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgDMSM",
+      "program": "SuperSP500",
+      "name": "StgDMSM",
+      "path": "src/SuperSP500/Strategies/StgDMSM.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMSM"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgDMSR",
+      "program": "SuperSP500",
+      "name": "StgDMSR",
+      "path": "src/SuperSP500/Strategies/StgDMSR.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMSR"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgDMSv2",
+      "program": "SuperSP500",
+      "name": "StgDMSv2",
+      "path": "src/SuperSP500/Strategies/StgDMSv2.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMSv2"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgRollYield",
+      "program": "SuperSP500",
+      "name": "StgRollYield",
+      "path": "src/SuperSP500/Strategies/StgRollYield.cs",
+      "lineage": [
+        "StgBase",
+        "StgRollYield"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgSDC",
+      "program": "SuperSP500",
+      "name": "StgSDC",
+      "path": "src/SuperSP500/Strategies/StgSDC.cs",
+      "lineage": [
+        "StgBase",
+        "StgSDC"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgSMS",
+      "program": "SuperSP500",
+      "name": "StgSMS",
+      "path": "src/SuperSP500/Strategies/StgSMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgTBO",
+      "program": "SuperSP500",
+      "name": "StgTBO",
+      "path": "src/SuperSP500/Strategies/StgTBO.cs",
+      "lineage": [
+        "StgBase",
+        "StgTBO"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgTKern",
+      "program": "SuperSP500",
+      "name": "StgTKern",
+      "path": "src/SuperSP500/Strategies/StgTKern.cs",
+      "lineage": [
+        "StgBase",
+        "StgTKern"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgTMA",
+      "program": "SuperSP500",
+      "name": "StgTMA",
+      "path": "src/SuperSP500/Strategies/StgTMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgTMA"
+      ]
+    },
+    {
+      "id": "SuperSP500/StgVRP",
+      "program": "SuperSP500",
+      "name": "StgVRP",
+      "path": "src/SuperSP500/Strategies/StgVRP.cs",
+      "lineage": [
+        "StgBase",
+        "StgVRP"
+      ]
+    },
+    {
+      "id": "SuperStockBurst/StgSBT",
+      "program": "SuperStockBurst",
+      "name": "StgSBT",
+      "path": "src/SuperStockBurst/Strategies/StgSBT.cs",
+      "lineage": [
+        "StgBase",
+        "StgSBT"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgBnH",
+      "program": "SuperTrend",
+      "name": "StgBnH",
+      "path": "src/SuperTrend/Strategies/StgBnH.cs",
+      "lineage": [
+        "StgBase",
+        "StgBnH"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgDMA",
+      "program": "SuperTrend",
+      "name": "StgDMA",
+      "path": "src/SuperTrend/Strategies/StgDMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMA"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgDMS",
+      "program": "SuperTrend",
+      "name": "StgDMS",
+      "path": "src/SuperTrend/Strategies/StgDMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgDMS"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgPairTrade",
+      "program": "SuperTrend",
+      "name": "StgPairTrade",
+      "path": "src/SuperTrend/Strategies/StgPairTrade.cs",
+      "lineage": [
+        "StgBase",
+        "StgPairTrade"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgSMS",
+      "program": "SuperTrend",
+      "name": "StgSMS",
+      "path": "src/SuperTrend/Strategies/StgSMS.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgSMS2",
+      "program": "SuperTrend",
+      "name": "StgSMS2",
+      "path": "src/SuperTrend/Strategies/StgSMS2.cs",
+      "lineage": [
+        "StgBase",
+        "StgSMS2"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgTBO",
+      "program": "SuperTrend",
+      "name": "StgTBO",
+      "path": "src/SuperTrend/Strategies/StgTBO.cs",
+      "lineage": [
+        "StgBase",
+        "StgTBO"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgTKern",
+      "program": "SuperTrend",
+      "name": "StgTKern",
+      "path": "src/SuperTrend/Strategies/StgTKern.cs",
+      "lineage": [
+        "StgBase",
+        "StgTKern"
+      ]
+    },
+    {
+      "id": "SuperTrend/StgTMA",
+      "program": "SuperTrend",
+      "name": "StgTMA",
+      "path": "src/SuperTrend/Strategies/StgTMA.cs",
+      "lineage": [
+        "StgBase",
+        "StgTMA"
+      ]
+    },
+    {
+      "id": "SuperUSStock/StgBDS",
+      "program": "SuperUSStock",
+      "name": "StgBDS",
+      "path": "src/SuperUSStock/Strategies/StgBDS.cs",
+      "lineage": [
+        "StgBase",
+        "StgBDS"
+      ]
+    },
+    {
+      "id": "SuperUSStock/StgBuyHold",
+      "program": "SuperUSStock",
+      "name": "StgBuyHold",
+      "path": "src/SuperUSStock/Strategies/StgBuyHold.cs",
+      "lineage": [
+        "StgBase",
+        "StgBuyHold"
+      ]
+    },
+    {
+      "id": "SuperVIX/StgVXBiPlusD",
+      "program": "SuperVIX",
+      "name": "StgVXBiPlusD",
+      "path": "src/SuperVIX/Strategies/StgVXBiPlus.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseDay",
+        "StgVXBiPlusD"
+      ]
+    },
+    {
+      "id": "SuperVIX/StgVXBiPlusM",
+      "program": "SuperVIX",
+      "name": "StgVXBiPlusM",
+      "path": "src/SuperVIX/Strategies/StgVXBiPlusM.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseMinute",
+        "StgVXBiPlusM"
+      ]
+    },
+    {
+      "id": "SuperVIX/StgVXBiPlusMy",
+      "program": "SuperVIX",
+      "name": "StgVXBiPlusMy",
+      "path": "src/SuperVIX/Strategies/StgVXBiPlusMy.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseMinute",
+        "StgVXBiPlusMy"
+      ]
+    },
+    {
+      "id": "SuperVIX/StgVXDM",
+      "program": "SuperVIX",
+      "name": "StgVXDM",
+      "path": "src/SuperVIX/Strategies/StgVXDM.cs",
+      "lineage": [
+        "StgBase",
+        "StgVXDM"
+      ]
+    },
+    {
+      "id": "SuperVIX/StgVXPlusD",
+      "program": "SuperVIX",
+      "name": "StgVXPlusD",
+      "path": "src/SuperVIX/Strategies/StgVXPlus.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseDay",
+        "StgVXPlusD"
+      ]
+    },
+    {
+      "id": "SuperVIX/StgVXPlusM",
+      "program": "SuperVIX",
+      "name": "StgVXPlusM",
+      "path": "src/SuperVIX/Strategies/StgVXPlusM.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseMinute",
+        "StgVXPlusM"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg區間操作",
+      "program": "SuperVIX",
+      "name": "Stg區間操作",
+      "path": "src/SuperVIX/Strategies/Stg區間操作.cs",
+      "lineage": [
+        "StgBase",
+        "Stg區間操作"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg均線以上空",
+      "program": "SuperVIX",
+      "name": "Stg均線以上空",
+      "path": "src/SuperVIX/Strategies/Stg均線以上空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg均線以上空"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg布林通道",
+      "program": "SuperVIX",
+      "name": "Stg布林通道",
+      "path": "src/SuperVIX/Strategies/Stg布林通道.cs",
+      "lineage": [
+        "StgBase",
+        "Stg布林通道"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg換倉就空",
+      "program": "SuperVIX",
+      "name": "Stg換倉就空",
+      "path": "src/SuperVIX/Strategies/Stg換倉就空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg換倉就空"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg換倉就空2M",
+      "program": "SuperVIX",
+      "name": "Stg換倉就空2M",
+      "path": "src/SuperVIX/Strategies/Stg換倉就空2M.cs",
+      "lineage": [
+        "StgBase",
+        "Stg換倉就空2M"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg換倉就空M",
+      "program": "SuperVIX",
+      "name": "Stg換倉就空M",
+      "path": "src/SuperVIX/Strategies/Stg換倉就空M.cs",
+      "lineage": [
+        "StgBase",
+        "Stg換倉就空M"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg換倉空遠期",
+      "program": "SuperVIX",
+      "name": "Stg換倉空遠期",
+      "path": "src/SuperVIX/Strategies/Stg換倉空遠期.cs",
+      "lineage": [
+        "StgBase",
+        "Stg換倉空遠期"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg新高就空M",
+      "program": "SuperVIX",
+      "name": "Stg新高就空M",
+      "path": "src/SuperVIX/Strategies/Stg新高就空M.cs",
+      "lineage": [
+        "StgBase",
+        "Stg新高就空M"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg正價差空",
+      "program": "SuperVIX",
+      "name": "Stg正價差空",
+      "path": "src/SuperVIX/Strategies/Stg正價差空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg正價差空"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg正逆價差",
+      "program": "SuperVIX",
+      "name": "Stg正逆價差",
+      "path": "src/SuperVIX/Strategies/Stg正逆價差.cs",
+      "lineage": [
+        "StgBase",
+        "Stg正逆價差"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg正逆價差2",
+      "program": "SuperVIX",
+      "name": "Stg正逆價差2",
+      "path": "src/SuperVIX/Strategies/Stg正逆價差2.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseDay",
+        "Stg正逆價差2"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg決策樹",
+      "program": "SuperVIX",
+      "name": "Stg決策樹",
+      "path": "src/SuperVIX/Strategies/Stg決策樹.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseMinute",
+        "Stg決策樹"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg現貨布林通道",
+      "program": "SuperVIX",
+      "name": "Stg現貨布林通道",
+      "path": "src/SuperVIX/Strategies/Stg現貨布林通道.cs",
+      "lineage": [
+        "StgBase",
+        "Stg現貨布林通道"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg結算前空",
+      "program": "SuperVIX",
+      "name": "Stg結算前空",
+      "path": "src/SuperVIX/Strategies/Stg結算前空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg結算前空"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg結算前空加停損",
+      "program": "SuperVIX",
+      "name": "Stg結算前空加停損",
+      "path": "src/SuperVIX/Strategies/Stg結算前空加停損.cs",
+      "lineage": [
+        "StgBase",
+        "Stg結算前空加停損"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg逆價差多",
+      "program": "SuperVIX",
+      "name": "Stg逆價差多",
+      "path": "src/SuperVIX/Strategies/Stg逆價差多.cs",
+      "lineage": [
+        "StgBase",
+        "Stg逆價差多"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg遠期就空",
+      "program": "SuperVIX",
+      "name": "Stg遠期就空",
+      "path": "src/SuperVIX/Strategies/Stg遠期就空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg遠期就空"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg遠期正價差空",
+      "program": "SuperVIX",
+      "name": "Stg遠期正價差空",
+      "path": "src/SuperVIX/Strategies/Stg遠期正價差空.cs",
+      "lineage": [
+        "StgBase",
+        "Stg遠期正價差空"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg遠期正價差空M",
+      "program": "SuperVIX",
+      "name": "Stg遠期正價差空M",
+      "path": "src/SuperVIX/Strategies/Stg遠期正價差空M.cs",
+      "lineage": [
+        "StgBase",
+        "Stg遠期正價差空M"
+      ]
+    },
+    {
+      "id": "SuperVIX/Stg高於就空",
+      "program": "SuperVIX",
+      "name": "Stg高於就空",
+      "path": "src/SuperVIX/Strategies/Stg高於就空.cs",
+      "lineage": [
+        "StgBase",
+        "StgBasePlus",
+        "StgBaseDay",
+        "Stg高於就空"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾當沖",
+      "program": "WinStock",
+      "name": "Stg大尾當沖",
+      "path": "src/WinStock/Strategies/StgDavid.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg美國深度沖",
+      "program": "WinStock",
+      "name": "Stg美國深度沖",
+      "path": "src/WinStock/Strategies/StgDavidADeep.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg美國深度沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾深度沖",
+      "program": "WinStock",
+      "name": "Stg大尾深度沖",
+      "path": "src/WinStock/Strategies/StgDavidDeep.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg大尾深度沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg深度向下沖",
+      "program": "WinStock",
+      "name": "Stg深度向下沖",
+      "path": "src/WinStock/Strategies/StgDavidDeep2.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度向上沖",
+        "Stg深度向下沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg深度向上沖",
+      "program": "WinStock",
+      "name": "Stg深度向上沖",
+      "path": "src/WinStock/Strategies/StgDavidDeep2.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度向上沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾用力沖",
+      "program": "WinStock",
+      "name": "Stg大尾用力沖",
+      "path": "src/WinStock/Strategies/StgDavidDsp.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾用力沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg深度隨時沖2",
+      "program": "WinStock",
+      "name": "Stg深度隨時沖2",
+      "path": "src/WinStock/Strategies/StgDavidDTime.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度隨時沖1",
+        "Stg深度隨時沖2"
+      ]
+    },
+    {
+      "id": "WinStock/Stg深度隨時沖1",
+      "program": "WinStock",
+      "name": "Stg深度隨時沖1",
+      "path": "src/WinStock/Strategies/StgDavidDTime.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度隨時沖1"
+      ]
+    },
+    {
+      "id": "WinStock/Stg深度過量沖",
+      "program": "WinStock",
+      "name": "Stg深度過量沖",
+      "path": "src/WinStock/Strategies/StgDavidDVol.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg深度過量沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg日本深度沖",
+      "program": "WinStock",
+      "name": "Stg日本深度沖",
+      "path": "src/WinStock/Strategies/StgDavidJDeep.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg深度沖",
+        "Stg日本深度沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾奇偶沖",
+      "program": "WinStock",
+      "name": "Stg大尾奇偶沖",
+      "path": "src/WinStock/Strategies/StgDavidOddEven.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾奇偶沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾過價沖",
+      "program": "WinStock",
+      "name": "Stg大尾過價沖",
+      "path": "src/WinStock/Strategies/StgDavidPrice.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾過價沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾向上沖",
+      "program": "WinStock",
+      "name": "Stg大尾向上沖",
+      "path": "src/WinStock/Strategies/StgDavidV2.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾向上沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾隨時沖",
+      "program": "WinStock",
+      "name": "Stg大尾隨時沖",
+      "path": "src/WinStock/Strategies/StgDavidV3.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾隨時沖"
+      ]
+    },
+    {
+      "id": "WinStock/Stg大尾過量沖",
+      "program": "WinStock",
+      "name": "Stg大尾過量沖",
+      "path": "src/WinStock/Strategies/StgDavidVolume.cs",
+      "lineage": [
+        "StgBase",
+        "Stg大尾當沖",
+        "Stg大尾過量沖"
+      ]
+    }
+  ],
+  "supportExclusions": {
+    "DavidTrade/Stg深度沖": "共用深度模型框架；countryCode空白且DeepInputs未實作。",
+    "WinStock/Stg深度沖": "共用深度模型框架；countryCode空白且DeepInputs未實作。",
+    "NetBack/StgStock": "僅提供股票資金與篩選參數封裝，沒有策略API或訊號。",
+    "SuperCB/StgXBase": "僅提供可轉債槓桿及損益共用計算，沒有進出場核心。"
+  }
+}
